@@ -1,0 +1,5 @@
+Towards the challenges of high dynamic signal-to-noise ratio (SNR) variation and multi-source channel overlapping, a YOLO-driven adaptive focusing network (YOLO-AFNet) is proposed for overlapping modulation signal perception. It includes the following contents:
+(1) A time-frequency image dataset of single and overlapping modulation signals is constructed. 
+(2) Based on adaptive multi-scale feature extraction with AKConv, Focal Modulation module and region-focused feature fusion network embedded with area-attention mechanism, a lightweight YOLO-AFNet recognition model is designed.
+(3) A Kullback-Leibler divergence-optimized adaptive random magnitude channel pruning (KL-ARMCP) algorithm is proposed for model compression, assisted by masked generative distillation (MGD) to restore accuracy, enabling exceptional computational efficiency for edge deployment with limited computing resources.
+(4) The deep semantic features extracted by the pruned YOLO-AFNet are combined with random forest regression for the end-to-end SNR estimation. 
